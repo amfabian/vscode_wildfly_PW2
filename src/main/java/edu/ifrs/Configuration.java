@@ -15,8 +15,9 @@ public class Configuration  extends Application{
         addRestResourceClasses(resources);
         return resources;
     }
-}
+
 
 private void addRestResourceClasses(Set<Class<?>> resources) {
     resources.add(edu.ifrs.Hello.class);
+}
 }
